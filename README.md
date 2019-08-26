@@ -1,4 +1,3 @@
-# docker-corenlp
-# docker system prune -a
-# docker build -t prod .
-# docker run -d -p 5000:5000 prod
+docker system prune -a
+docker build -t corenlp .
+docker run -d -p 9000:9000 corenlp
