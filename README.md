@@ -3,3 +3,4 @@
     docker run -d -p 9000:9000
     
     docker network create -d bridge corenlp-net
+    docker run -d -p 9000:80 --network="corenlp-net" --name corenlp-inst
